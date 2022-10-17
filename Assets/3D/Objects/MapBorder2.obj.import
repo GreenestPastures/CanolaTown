@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/MapBorder2.obj-bcca0c2330a3b83fdb9e830518dc1b42.mesh"
+
+[deps]
+
+files=[ "res://.import/MapBorder2.obj-bcca0c2330a3b83fdb9e830518dc1b42.mesh" ]
+
+source_file="res://Assets/3D/Objects/MapBorder2.obj"
+dest_files=[ "res://.import/MapBorder2.obj-bcca0c2330a3b83fdb9e830518dc1b42.mesh", "res://.import/MapBorder2.obj-bcca0c2330a3b83fdb9e830518dc1b42.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

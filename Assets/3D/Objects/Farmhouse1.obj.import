@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Farmhouse1.obj-30fc5f3c0b7d7107247cd0ed30ae1662.mesh"
+
+[deps]
+
+files=[ "res://.import/Farmhouse1.obj-30fc5f3c0b7d7107247cd0ed30ae1662.mesh" ]
+
+source_file="res://Assets/3D/Objects/Farmhouse1.obj"
+dest_files=[ "res://.import/Farmhouse1.obj-30fc5f3c0b7d7107247cd0ed30ae1662.mesh", "res://.import/Farmhouse1.obj-30fc5f3c0b7d7107247cd0ed30ae1662.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

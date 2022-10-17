@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/TownChurch.obj-f702fce19927b4cc952f2502995e64bf.mesh"
+
+[deps]
+
+files=[ "res://.import/TownChurch.obj-f702fce19927b4cc952f2502995e64bf.mesh" ]
+
+source_file="res://Assets/3D/Objects/TownChurch.obj"
+dest_files=[ "res://.import/TownChurch.obj-f702fce19927b4cc952f2502995e64bf.mesh", "res://.import/TownChurch.obj-f702fce19927b4cc952f2502995e64bf.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

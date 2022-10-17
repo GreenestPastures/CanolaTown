@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/SM_Chr_Attach_Hat_Male_01.obj-293112c79b541e2b412e5e6c034a14cb.mesh"
+
+[deps]
+
+files=[ "res://.import/SM_Chr_Attach_Hat_Male_01.obj-293112c79b541e2b412e5e6c034a14cb.mesh" ]
+
+source_file="res://Assets/3D/Player/SM_Chr_Attach_Hat_Male_01.obj"
+dest_files=[ "res://.import/SM_Chr_Attach_Hat_Male_01.obj-293112c79b541e2b412e5e6c034a14cb.mesh", "res://.import/SM_Chr_Attach_Hat_Male_01.obj-293112c79b541e2b412e5e6c034a14cb.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
