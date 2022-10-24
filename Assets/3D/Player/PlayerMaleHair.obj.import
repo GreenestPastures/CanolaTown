@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/PlayerMaleHair.obj-b3550d8bd477682ee1350bec6ea0d925.mesh"
+
+[deps]
+
+files=[ "res://.import/PlayerMaleHair.obj-b3550d8bd477682ee1350bec6ea0d925.mesh" ]
+
+source_file="res://Assets/3D/Player/PlayerMaleHair.obj"
+dest_files=[ "res://.import/PlayerMaleHair.obj-b3550d8bd477682ee1350bec6ea0d925.mesh", "res://.import/PlayerMaleHair.obj-b3550d8bd477682ee1350bec6ea0d925.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

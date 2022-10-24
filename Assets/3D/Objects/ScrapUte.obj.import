@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ScrapUte.obj-ca84e17dfb61eb8717b6a2fae717cb52.mesh"
+
+[deps]
+
+files=[ "res://.import/ScrapUte.obj-ca84e17dfb61eb8717b6a2fae717cb52.mesh" ]
+
+source_file="res://Assets/3D/Objects/ScrapUte.obj"
+dest_files=[ "res://.import/ScrapUte.obj-ca84e17dfb61eb8717b6a2fae717cb52.mesh", "res://.import/ScrapUte.obj-ca84e17dfb61eb8717b6a2fae717cb52.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
