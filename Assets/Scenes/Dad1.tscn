@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/3D/Characters/BeardGuy.tscn" type="PackedScene" id=1]
+
+[sub_resource type="BoxShape" id=1]
+
+[node name="Dad1" type="KinematicBody"]
+
+[node name="ColShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
+shape = SubResource( 1 )
+
+[node name="Dad1" parent="." instance=ExtResource( 1 )]

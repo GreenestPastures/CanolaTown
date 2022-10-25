@@ -1,38 +1,52 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://Assets/Scenes/SeedyOZ.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/Scenes/Preacher.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Assets/Scenes/Town.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Assets/3D/Objects/MapGround.obj" type="ArrayMesh" id=4]
 [ext_resource path="res://Assets/Materials/PolygonFarm_Texture_01_A.png" type="Texture" id=5]
+[ext_resource path="res://Assets/3D/Objects/MapBorder1.obj" type="ArrayMesh" id=6]
+[ext_resource path="res://Assets/Materials/PolygonFarm_Texture_03_A.png" type="Texture" id=7]
+[ext_resource path="res://Assets/3D/Objects/Basin.obj" type="ArrayMesh" id=8]
+[ext_resource path="res://Assets/Materials/PolygonFarm_Texture_04_A.png" type="Texture" id=9]
+[ext_resource path="res://Assets/Scenes/PlayerMasc.tscn" type="PackedScene" id=10]
 
 [sub_resource type="SpatialMaterial" id=1]
 albedo_texture = ExtResource( 5 )
 
+[sub_resource type="SpatialMaterial" id=2]
+albedo_texture = ExtResource( 9 )
+
+[sub_resource type="SpatialMaterial" id=3]
+albedo_texture = ExtResource( 7 )
+
+[sub_resource type="SpatialMaterial" id=4]
+albedo_texture = ExtResource( 7 )
+
 [node name="Spatial" type="Spatial"]
 
-[node name="MapGround" type="MeshInstance" parent="."]
-transform = Transform( 10, 0, 0, 0, 1, 0, 0, 0, 10, 0, 0, 0 )
+[node name="MapGround2" type="MeshInstance" parent="."]
+transform = Transform( -4.37114e-07, 0, 10, 0, 0.1, 0, -10, 0, -4.37114e-07, 0, 0, 0 )
 mesh = ExtResource( 4 )
 skeleton = NodePath("../Town")
 material/0 = SubResource( 1 )
 
-[node name="MapGround2" type="MeshInstance" parent="MapGround"]
-transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0 )
+[node name="MapGround3" type="MeshInstance" parent="."]
+transform = Transform( -10, 0, -1.50996e-06, 0, 0.1, 0, 1.50996e-06, 0, -10, 0, 0, 0 )
 mesh = ExtResource( 4 )
-skeleton = NodePath("../../Town")
+skeleton = NodePath("../Town")
 material/0 = SubResource( 1 )
 
-[node name="MapGround3" type="MeshInstance" parent="MapGround"]
-transform = Transform( -1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0 )
+[node name="MapGround4" type="MeshInstance" parent="."]
+transform = Transform( -4.37114e-07, 0, -10, 0, 0.1, 0, 10, 0, -4.37114e-07, 0, 0, 0 )
 mesh = ExtResource( 4 )
-skeleton = NodePath("../../Town")
+skeleton = NodePath("../Town")
 material/0 = SubResource( 1 )
 
-[node name="MapGround4" type="MeshInstance" parent="MapGround"]
-transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 0 )
+[node name="MapGround" type="MeshInstance" parent="."]
+transform = Transform( 10, 0, 0, 0, 0.1, 0, 0, 0, 10, 0, 0, 0 )
 mesh = ExtResource( 4 )
-skeleton = NodePath("../../Town")
+skeleton = NodePath("../Town")
 material/0 = SubResource( 1 )
 
 [node name="Town" parent="." instance=ExtResource( 3 )]
@@ -45,7 +59,65 @@ light_energy = 2.5
 light_indirect_energy = 1.5
 
 [node name="SeedyOZ" parent="." instance=ExtResource( 1 )]
-transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, 203.204, 31.0087, -237.798 )
+transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, 203.204, 46.935, -237.798 )
 
 [node name="Preacher" parent="." instance=ExtResource( 2 )]
-transform = Transform( -4.37114e-07, 0, -10, 0, 10, 0, 10, 0, -4.37114e-07, 504.915, 31.0609, 0.159119 )
+transform = Transform( -4.37114e-07, 0, -10, 0, 10, 0, 10, 0, -4.37114e-07, 504.915, 46.3819, 0.159 )
+
+[node name="MapBorder1" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5500, 0, 153.155 )
+mesh = ExtResource( 6 )
+material/0 = SubResource( 2 )
+
+[node name="MapBorder2" type="MeshInstance" parent="."]
+transform = Transform( 0.393798, 0, 0.919197, 0, 1, 0, -0.919197, 0, 0.393798, 4974.11, 0, 2864.99 )
+mesh = ExtResource( 6 )
+material/0 = SubResource( 2 )
+
+[node name="MapBorder3" type="MeshInstance" parent="."]
+transform = Transform( -0.931919, 0, -0.362666, 0, 1, 0, 0.362666, 0, -0.931919, 2961.05, 0, 5013.12 )
+mesh = ExtResource( 6 )
+material/0 = SubResource( 2 )
+
+[node name="MapBorder4" type="MeshInstance" parent="."]
+transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0, 0, 5500 )
+mesh = ExtResource( 6 )
+material/0 = SubResource( 2 )
+
+[node name="Player" parent="." instance=ExtResource( 10 )]
+transform = Transform( -4.37114e-07, 0, 10, 0, 10, 0, -10, 0, -4.37114e-07, -1632.3, 0, 0 )
+
+[node name="Basin" type="MeshInstance" parent="."]
+transform = Transform( 0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, 3257.33, 20, -135.242 )
+mesh = ExtResource( 8 )
+material/0 = SubResource( 3 )
+
+[node name="Basin2" type="MeshInstance" parent="."]
+transform = Transform( 0.282843, 0, 0.282843, 0, 0.4, 0, -0.282843, 0, 0.282843, 1501.86, 20, -1637.49 )
+mesh = ExtResource( 8 )
+material/0 = SubResource( 4 )
+
+[node name="Basin3" type="MeshInstance" parent="."]
+transform = Transform( 0.282843, 0, -0.282843, 0, 0.4, 0, 0.282843, 0, 0.282843, 1746.91, 20, 1525.12 )
+mesh = ExtResource( 8 )
+material/0 = SubResource( 4 )
+
+[node name="Basin4" type="MeshInstance" parent="."]
+transform = Transform( -0.409576, 0, -0.286788, 0, 0.5, 0, 0.286788, 0, -0.409576, -1788.19, 20, 1494.72 )
+mesh = ExtResource( 8 )
+material/0 = SubResource( 4 )
+
+[node name="Basin7" type="MeshInstance" parent="."]
+transform = Transform( -0.327661, 0, 0.229431, 0, 0.4, 0, -0.229431, 0, -0.327661, -1782.95, 20, -1539.43 )
+mesh = ExtResource( 8 )
+material/0 = SubResource( 4 )
+
+[node name="Basin5" type="MeshInstance" parent="."]
+transform = Transform( -2.18557e-08, 0, 0.5, 0, 0.5, 0, -0.5, 0, -2.18557e-08, 12.991, 20, -2987.36 )
+mesh = ExtResource( 8 )
+material/0 = SubResource( 4 )
+
+[node name="Basin6" type="MeshInstance" parent="."]
+transform = Transform( -2.62268e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.62268e-08, 59.9531, 20, 2840.95 )
+mesh = ExtResource( 8 )
+material/0 = SubResource( 4 )
