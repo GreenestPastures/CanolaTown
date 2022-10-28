@@ -16,6 +16,9 @@ func _physics_process(delta):
 	
 
 
+
+
+
 func get_input(delta):
 	var vy = vel.y
 	vel = Vector3.ZERO
