@@ -53,7 +53,7 @@ material/0 = SubResource( 1 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
 
 [node name="DirectionalLight" type="DirectionalLight" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1000, 0 )
+transform = Transform( -0.198033, -0.625564, 0.754621, 0.0736259, 0.7582, 0.647852, -0.977426, 0.183856, -0.104091, 0, 0, 0 )
 light_color = Color( 1, 0.705882, 0, 1 )
 light_energy = 2.5
 light_indirect_energy = 1.5
@@ -93,7 +93,7 @@ mesh = ExtResource( 8 )
 material/0 = SubResource( 3 )
 
 [node name="Basin2" type="MeshInstance" parent="."]
-transform = Transform( 0.282843, 0, 0.282843, 0, 0.4, 0, -0.282843, 0, 0.282843, 1501.86, 20, -1637.49 )
+transform = Transform( 0.282843, 0, 0.282843, 0, 0.4, 0, -0.282843, 0, 0.282843, 1650.12, 20, -1926.12 )
 mesh = ExtResource( 8 )
 material/0 = SubResource( 4 )
 
@@ -103,21 +103,21 @@ mesh = ExtResource( 8 )
 material/0 = SubResource( 4 )
 
 [node name="Basin4" type="MeshInstance" parent="."]
-transform = Transform( -0.409576, 0, -0.286788, 0, 0.5, 0, 0.286788, 0, -0.409576, -1788.19, 20, 1494.72 )
+transform = Transform( -0.409576, 0, -0.286788, 0, 0.5, 0, 0.286788, 0, -0.409576, -1973.5, 20, 1703.23 )
 mesh = ExtResource( 8 )
 material/0 = SubResource( 4 )
 
 [node name="Basin7" type="MeshInstance" parent="."]
-transform = Transform( -0.327661, 0, 0.229431, 0, 0.4, 0, -0.229431, 0, -0.327661, -1782.95, 20, -1539.43 )
+transform = Transform( -0.327661, 0, 0.229431, 0, 0.4, 0, -0.229431, 0, -0.327661, -1690.28, 20, -1724.72 )
 mesh = ExtResource( 8 )
 material/0 = SubResource( 4 )
 
 [node name="Basin5" type="MeshInstance" parent="."]
-transform = Transform( -2.18557e-08, 0, 0.5, 0, 0.5, 0, -0.5, 0, -2.18557e-08, 12.991, 20, -2987.36 )
+transform = Transform( -2.18557e-08, 0, 0.5, 0, 0.5, 0, -0.5, 0, -2.18557e-08, 12.991, 20, -3091.64 )
 mesh = ExtResource( 8 )
 material/0 = SubResource( 4 )
 
 [node name="Basin6" type="MeshInstance" parent="."]
-transform = Transform( -2.62268e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.62268e-08, 59.9531, 20, 2840.95 )
+transform = Transform( -2.62268e-08, 0, -0.6, 0, 0.6, 0, 0.6, 0, -2.62268e-08, 59.9531, 20, 3130.71 )
 mesh = ExtResource( 8 )
 material/0 = SubResource( 4 )
