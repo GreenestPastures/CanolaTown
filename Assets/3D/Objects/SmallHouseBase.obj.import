@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/SmallHouseBase.obj-696c3d45e1becfc4f0c9737d8dadb1ad.mesh"
+
+[deps]
+
+files=[ "res://.import/SmallHouseBase.obj-696c3d45e1becfc4f0c9737d8dadb1ad.mesh" ]
+
+source_file="res://Assets/3D/Objects/SmallHouseBase.obj"
+dest_files=[ "res://.import/SmallHouseBase.obj-696c3d45e1becfc4f0c9737d8dadb1ad.mesh", "res://.import/SmallHouseBase.obj-696c3d45e1becfc4f0c9737d8dadb1ad.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

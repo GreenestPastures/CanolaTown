@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/SM_Bld_Shop_02.obj-c4c8db65e45cd8eff453af82e81d4b20.mesh"
+
+[deps]
+
+files=[ "res://.import/SM_Bld_Shop_02.obj-c4c8db65e45cd8eff453af82e81d4b20.mesh" ]
+
+source_file="res://Assets/3D/Objects/SM_Bld_Shop_02.obj"
+dest_files=[ "res://.import/SM_Bld_Shop_02.obj-c4c8db65e45cd8eff453af82e81d4b20.mesh", "res://.import/SM_Bld_Shop_02.obj-c4c8db65e45cd8eff453af82e81d4b20.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

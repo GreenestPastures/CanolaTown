@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/SM_Prop_Hemp_01_S.obj-77597341f6e754d4c5a6b921c9b40d8c.mesh"
+
+[deps]
+
+files=[ "res://.import/SM_Prop_Hemp_01_S.obj-77597341f6e754d4c5a6b921c9b40d8c.mesh" ]
+
+source_file="res://Assets/3D/Objects/SM_Prop_Hemp_01_S.obj"
+dest_files=[ "res://.import/SM_Prop_Hemp_01_S.obj-77597341f6e754d4c5a6b921c9b40d8c.mesh", "res://.import/SM_Prop_Hemp_01_S.obj-77597341f6e754d4c5a6b921c9b40d8c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286
